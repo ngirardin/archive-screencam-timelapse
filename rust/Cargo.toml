@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Nicolas <ngirardin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+camera_capture = "0.5.0"
+#image = "0.22.3" <- adding this one makes the app crash on WSL
